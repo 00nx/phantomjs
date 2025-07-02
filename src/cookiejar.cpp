@@ -412,7 +412,7 @@ bool CookieJar::purgeExpiredCookies()
 
     // Check if any cookie has expired
     int prePurgeCookiesCount = cookiesList.count();
-    QDateTime now = QDateTime::currentDateTime();
+    QDateTime now = QDateTime::currentDateTimeUtc();
     for (int i = cookiesList.count() - 1; i >= 0; --i) {
         if (!cookiesList.at(i).isSessionCookie() && cookiesList.at(i).expirationDate() < now) {
             qDebug() << "CookieJar - Purged (expired)" << cookiesList.at(i).toRawForm();
