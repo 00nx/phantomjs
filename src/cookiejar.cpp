@@ -461,7 +461,7 @@ void CookieJar::save()
         purgeExpiredCookies();
 
 #ifndef QT_NO_DEBUG_OUTPUT
-        foreach (QNetworkCookie cookie, allCookies()) {
+        for  (const auto& cookie : allCookies()) {
             qDebug() << "CookieJar - Saved" << cookie.toRawForm();
         }
 #endif
