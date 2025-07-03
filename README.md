@@ -37,7 +37,7 @@ The last stable release is [2.1](http://phantomjs.org/release-2.1.html).
 PhantomJS is free and open-source, distributed under the [BSD license](http://opensource.org/licenses/BSD-3-Clause).  
 It includes third-party code — see `third-party.txt` for license details.
 
-Created by [@ariyahidayat](https://twitter.com/ariyahidayat) with help from [many contributors](https://github.com/ariya/phantomjs/contributors).
+credits for [@ariyahidayat](https://twitter.com/ariyahidayat) with help from [many contributors](https://github.com/ariya/phantomjs/contributors).
 
 ---
 
